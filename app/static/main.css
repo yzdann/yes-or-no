@@ -1,0 +1,10 @@
+body {
+  background: #929999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-text{
+  font-size: 10vw;
+}

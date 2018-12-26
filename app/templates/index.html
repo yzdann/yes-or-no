@@ -1,8 +1,4 @@
-<html>
-    <head>
-        <title>Should I?</title>
-    </head>
-    <body>
-      {{ result }}
-    </body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+  <p class="main-text">{{ result }}</p>
+{% endblock %}
